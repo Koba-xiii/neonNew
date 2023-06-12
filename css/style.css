@@ -36,7 +36,7 @@ body{
 
 header{
     display: flex;
-    gap: 140px;
+    gap: 50px;
     margin-top: 24px;
 }
 
@@ -47,7 +47,7 @@ header{
     height: 76px;
 }
 .logo-img{
-    padding-right: 10px;
+    padding-right: 5px;
 }
 nav{
     flex-grow: 1;
@@ -59,7 +59,7 @@ nav{
     align-items: center;
 
     font-family: 'Raleway';
-    font-size: 18px;
+    font-size: 15px;
     line-height: 125%;
     margin-bottom: 69px;
 
@@ -81,7 +81,7 @@ nav{
     border: 1px solid rgba(255, 255, 255, 0.7);
     border-radius: 2px;
     padding: 12px;
-    width: 326px;
+    width: 226px;
 
     display: flex;
     align-items: center;
@@ -123,7 +123,7 @@ nav{
     justify-content: space-around;
 
     font-family: 'Oswald';
-    font-size: 22px;
+    font-size: 18px;
     line-height: 125%;
 
     
@@ -132,17 +132,19 @@ nav{
 .cotegories a{
     color: #fff;
     transition: ease .3s;
-    gap: 71px;
+    gap: 50px;
 }
 
 .choices{
     display: flex;
     align-items: center;
     font-family: 'Raleway';
-    line-height: 26px;
+    line-height: 20px;
 }
 .choices img{
     padding-right: 13px;
+    width: 30px;
+    height: 30px;
 }
 
 /* Header End */
@@ -153,12 +155,11 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-
     margin-top: 78px;
 }
 .header-line{
-    width: 1660px;
-    height: 775px;
+    width: 1106px;
+    height: 516px;
     margin-top: 78px;
     position: absolute;
 }
@@ -169,7 +170,7 @@ nav{
 .header-one{
     font-family: 'Oswald';
     font-weight: 500;
-    font-size: 66px;
+    font-size: 56px;
     line-height: 120%;
     color: #FFFFFF;
     padding-bottom: 23px;
@@ -179,11 +180,15 @@ nav{
 
 .header-paragraph{
     font-family: 'Raleway';
-    font-style: normal;
-    font-size: 22px;
-    line-height: 150%;
+    font-size: 20px;
+    line-height: 125%;
     color: #FFFFFF;
     padding-bottom: 68px;
+}
+
+.header-img img{
+    width: 516px;
+    height: 450px;
 }
 
 .header-btn{
@@ -220,7 +225,7 @@ nav{
 .cards{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items:end;
     
     margin-top: 101px;    
 }
@@ -228,13 +233,34 @@ nav{
 .cards p{
     padding-top: 75px;
     font-family: 'Oswald';
-    font-size: 36px;
+    font-size: 26px;
     line-height: 125%;
-
+    display: flex;
+    justify-content: center;
     text-align: center;
     color: #FEFEFE;
 }    
-
+.card-1, .card-2, .card-3{
+    position: relative;
+}
+.line-container3{
+    position: relative;
+    top: 63px;
+    right: -50px;
+}
+.line-container1{
+    position: relative;
+    top: 4px;
+    right: -71px;
+}
+.line-container2{
+    position: relative;
+    top: -8px;
+    right: -56px;
+}
+.hero-bg{
+    position: sticky;
+}
 .line{
     position: absolute;
     display: flex;
@@ -244,7 +270,7 @@ nav{
 /*Advantage End*/
 .brands{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-top: 127px;
 }
