@@ -1,0 +1,251 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/* Fonts Start */
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(../fonts/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url(../fonts/Raleway-Italic-VariableFont_wght.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Oswald';
+    src: url(../fonts/Oswald-VariableFont_wght.ttf);
+}
+
+/* Fonts End */
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: #0A0216F0;
+    padding: 0 130px;
+}
+
+/* Header Start */
+
+header{
+    display: flex;
+    gap: 140px;
+    margin-top: 24px;
+}
+
+.logo{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 76px;
+}
+.logo-img{
+    padding-right: 10px;
+}
+nav{
+    flex-grow: 1;
+}
+
+.info-menu{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 125%;
+    margin-bottom: 69px;
+
+}
+
+.info-menu a{
+    color: #FFFFFF;
+    transition: ease .3s;
+}
+.info-menu a:hover{
+    color: #F50395;
+}
+.cotegories a:hover{
+    color: #F50395;
+}
+
+.input-box{
+    opacity: 0.7;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 2px;
+    padding: 12px;
+    width: 326px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 9px;
+}
+
+.input-box img{
+    width: 15px;
+    height: 15px;
+}
+
+.input-box input{
+
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+.login{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #F50395 !important;
+    
+    display: flex;
+    align-items: center;
+}
+
+.login img{
+    padding-right: 13px;
+}
+
+.cotegories{
+    display: flex;
+    justify-content: space-around;
+
+    font-family: 'Oswald';
+    font-size: 22px;
+    line-height: 125%;
+
+    
+}
+
+.cotegories a{
+    color: #fff;
+    transition: ease .3s;
+    gap: 71px;
+}
+
+.choices{
+    display: flex;
+    align-items: center;
+    font-family: 'Raleway';
+    line-height: 26px;
+}
+.choices img{
+    padding-right: 13px;
+}
+
+/* Header End */
+
+/*Header-Content Start*/
+
+.header-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 78px;
+}
+.header-line{
+    width: 1660px;
+    height: 775px;
+    margin-top: 78px;
+    position: absolute;
+}
+.header-text{
+    margin-right: 75px;
+}
+
+.header-one{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 120%;
+    color: #FFFFFF;
+    padding-bottom: 23px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-paragraph{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 22px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding-bottom: 68px;
+}
+
+.header-btn{
+    width: 400px;
+    height: 68px;
+    border-radius: 50px;
+    border: 0;
+    position: absolute;
+
+    background: linear-gradient(271.66deg, #0D63C9 0%, #F50395 100%);
+    box-shadow: 0px 0px 5px #4B02E7;
+
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+/*Header-Content End*/
+
+/*Advantage Start*/
+.advantage-header h2{
+    width: 519px;
+    height: 89px;
+    margin-top: 180px;
+
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 89px;
+    color: #fff;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin-top: 101px;    
+}
+
+.cards p{
+    padding-top: 75px;
+    font-family: 'Oswald';
+    font-size: 36px;
+    line-height: 125%;
+
+    text-align: center;
+    color: #FEFEFE;
+}    
+
+.line{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+/*Advantage End*/
+.brands{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 127px;
+}
+
