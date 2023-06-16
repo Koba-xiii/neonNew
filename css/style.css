@@ -44,7 +44,6 @@ a {
 body {
     font-family: 'Raleway', sans-serif;
     background: #0A0216F0;
-    padding: 0 130px;
     color: #fff;
 }
 
@@ -54,6 +53,7 @@ header {
     display: flex;
     gap: 50px;
     margin-top: 24px;
+    padding: 0 130px;
 }
 
 .logo {
@@ -62,6 +62,8 @@ header {
     align-items: center;
     height: 76px;
 }
+
+
 
 .logo-img {
     padding-right: 5px;
@@ -114,7 +116,7 @@ nav {
 }
 
 .input-box input {
-
+    color: #fff;
     border: 0;
     outline: 0;
     background: transparent;
@@ -176,6 +178,8 @@ nav {
     justify-content: center;
     align-items: center;
     margin-top: 78px;
+
+
 }
 
 .header-line {
@@ -230,8 +234,12 @@ nav {
 
 .btn-text {
     position: relative;
-    top: 53px;
+    top: 50px;
     left: 90px;
+    color: #FFFFFF;
+}
+.btn-text a{
+    color: #FFFFFF;
 }
 
 /*Header-Content End*/
@@ -239,6 +247,7 @@ nav {
 /*Advantage Start*/
 .advantage {
     margin-top: 180px;
+    padding: 0 130px;
 }
 
 .advantage-header h2 {
@@ -432,12 +441,14 @@ nav {
 
 /*News End*/
 
+.novelty{
+    padding: 0 130px;
+}
 
 .mause-header {
     display: flex;
     justify-content: space-between;
 }
-
 .novelty-header {
     font-family: 'Oswald';
     font-weight: 500;
@@ -473,6 +484,7 @@ nav {
 
 .mouse-container{
     display: flex;
+    justify-content: space-around;
     gap: 30px;
 }
 
@@ -529,6 +541,10 @@ nav {
     padding: 33px 33px 0 33px;
 }
 
+.stock{
+    padding: 0 130px;
+}
+
 .stock h2{
     margin-top: 287px;
     margin-bottom: 100px;
@@ -539,8 +555,10 @@ nav {
     line-height: 89px;
 }
 
+
 .stocks{
     display: flex;
+    justify-content: space-around;
 }
 
 .offers{
@@ -548,6 +566,7 @@ nav {
     justify-content: center;
     align-items: center;
 }
+
 .offers{
     align-items:flex-end;
 }
@@ -567,4 +586,102 @@ nav {
     align-items: center;
 
     padding-bottom: 250px;
+}
+
+footer{
+    background-color: #050000;
+    padding: 140px 0 90px;
+}
+
+footer a{
+    display: block;
+    color: #fff;
+
+    font-family: 'Raleway';
+    font-size: 24px;
+    line-height: 28px;
+
+    margin-top: 23px;
+}
+
+footer h5{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    color: #FF00D7;
+    margin-top: 26px;
+}
+
+.footer1 .logo{
+    padding-bottom: 69px;
+}
+
+
+.footer-header h5{
+    padding-bottom: 40px;
+}
+
+.footerMenu{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 0 130px;
+}
+
+.footerMenu > div{
+    
+}
+
+.subFooter{
+    color: #645F5F;
+    margin-top: 100px;
+    width: 100% !important;
+    border-top: 1px solid rgba(104, 104, 104, 0.5);
+    padding: 0 130px;
+}
+
+.subFooter a{
+    color: #645F5F;
+
+}
+
+.footerInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.legal{
+    display: flex;
+    gap: 120px;
+
+}
+
+.social{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.social a{
+    margin: 0;
+}
+
+.subFooter span{
+    font-family: 'Raleway';
+    font-size: 20px;
+    line-height: 24px;
+}
+
+@media (max-width: 1440px){
+    .footerMenu{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 950px){
+    .footerMenu{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
