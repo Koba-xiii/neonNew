@@ -1,14 +1,19 @@
-*,
-*::after,
-*::before {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-a {
-    text-decoration: none;
-}
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 /* Fonts Start */
 
@@ -778,7 +783,9 @@ aside {
 
 .catalog {
     flex-basis: 500px;
+    /*border-left: 1px solid rgba(255, 255, 255, 0.3);*/
     flex-grow: 1;
+    margin-bottom: 312px;
 }
 
 aside a {
@@ -887,6 +894,158 @@ aside label input {
     width: 390px;
     height: 626px;
 }
+
+.product{
+    display: flex;
+    margin-top: 50px;
+}
+
+.product-des{
+    margin-left: 170px;
+}
+
+.product-header span{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 22px;
+    font-family: Raleway;
+    line-height: 125%;
+}
+.product-header h1{
+    color: #F50395;
+
+    font-size: 66px;
+    font-family: Oswald;
+    font-weight: 500;
+    line-height: 120%;
+
+}
+
+
+.prod{
+    display: flex;
+}
+
+.product-plus{
+    display: flex;
+    margin-top: 22px;
+}
+
+.product-plus img{
+    margin-left: 15px;
+}
+
+.product-plus span{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 22px;
+    font-family: Raleway;
+    line-height: 125%;
+
+    margin-left: 32px;
+}
+
+.product-price {
+    margin-right: 302px;
+}
+.product-price p{
+    font-size: 40px;
+    font-family: Jost;
+    font-weight: 500;
+    line-height: 125%;
+
+    margin-top: 40px;
+}
+.product-price img{
+    margin-left: 10px;
+}
+.product-price span{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 20px;
+    font-family: Jost;
+    line-height: 125%;
+    margin-left: 18px;
+    margin-top: 12px;
+}
+
+.speci-header{
+    display: flex;
+}
+.speci .btn{
+    font-size: 22px;
+    font-family: Raleway;
+    font-weight: 600;
+}
+
+.speci {
+    margin-top: 73px;
+}
+.speci p{
+    color: #FFF;
+    font-size: 20px;
+    font-family: Raleway;
+    line-height: 125%;
+
+    margin-top: 34px;
+    margin-bottom: 72px;
+}
+.speci-header h6{
+    color: #6F6E6E;
+    font-size: 22px;
+    font-family: Raleway;
+    line-height: 125%;
+
+    margin-right: 180px;
+}
+.speci-header h6:first-child{
+    color: #FFF;
+    font-size: 22px;
+    font-family: Raleway;
+    line-height: 125%;
+}
+
+.product-order{
+    margin-top: 108px;
+    display: flex;
+}
+
+.product-orders{
+    margin-right: 30px;
+}
+
+.product-rules{
+    display: flex;
+    margin-top: 10px;
+}
+
+.product-rules input{
+    width: 26px;
+    height: 26px;
+    margin-right: 40px;
+}
+.product-rules p{
+    font-size: 20px;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.product-border {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 339px;
+}
+.product-border p{
+    font-size: 20px;
+    padding: 64px 12px 56px 39px;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: 150%;
+}
+.product-border img{
+    position: absolute;
+}
+
+
 
 @media (max-width: 1440px) {
     .footerMenu {
